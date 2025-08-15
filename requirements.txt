@@ -2,3 +2,5 @@ gradio
 gtts
 requests
 python-dotenv
+speechrecognition
+pydub
