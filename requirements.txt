@@ -1,3 +1,4 @@
 gradio
 gtts
 requests
+python-dotenv
