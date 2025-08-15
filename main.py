@@ -54,7 +54,7 @@ def assistant(audio):
 # 🖼️ Interface Gradio avec entrée vocale + sortie texte + audio
 gr.Interface(
     fn=assistant,
-    inputs=gr.Audio(source="microphone", type="filepath", label="Parle ici"),
+    inputs=gr.Audio(sources="microphone", type="filepath", label="Parle ici"),
     outputs=[
         gr.Textbox(label="Ce que tu as dit"),
         gr.Textbox(label="Réponse écrite"),
