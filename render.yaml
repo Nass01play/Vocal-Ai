@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: assistant-ia
+    name: vocal-ai
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
