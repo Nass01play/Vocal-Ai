@@ -52,4 +52,4 @@ gr.ChatInterface(
     description="Discute avec ton assistant comme dans une messagerie. Il te répond à l'écrit et à l'oral.",
     additional_inputs=gr.Audio(sources=["microphone"], type="filepath", label="Réponse vocale"),
     theme="soft"
-).launch()
+).launch(server_name="0.0.0.0", server_port=8080)
